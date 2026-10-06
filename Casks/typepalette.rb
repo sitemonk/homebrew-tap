@@ -7,7 +7,7 @@ cask "typepalette" do
   desc "Save and reuse text snippets from a command palette"
   homepage "https://www.typepalette.com/"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "TypePalette.app"
 end
